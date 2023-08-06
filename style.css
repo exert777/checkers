@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkers_field {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(209, 154, 91);
+
+    /* border: 2px solid black; */
+}
+
+
+
+.cell{
+    border: 2px solid ;
+}
+
+.even_row:nth-child(2n) {
+    background-color: rgb(201, 99, 40);
+}
+
+.not_even_row:nth-child(2n+1){
+    background-color: rgb(201, 99, 40);
+}
+
+.cell_pointer {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
